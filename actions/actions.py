@@ -7,6 +7,7 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 import logging
+import json
 
 from typing import Any, Text, Dict, List
 
@@ -31,9 +32,10 @@ class ActionSetFaqSlot(Action):
         full_intent = (
             tracker.latest_message.get("response_selector", {})
                 .get("faq", {})
-                .get("full_retrieval_intent")
+                .get("response", {})
+                .get("intent_response_key")
         )
-        logger.info(f"intent: {full_intent}")
+        logger.info(json.dumps(tracker.latest_message))
 
         if full_intent:
             topic = full_intent.split("/")[1]
