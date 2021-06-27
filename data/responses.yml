@@ -9,3 +9,11 @@ responses:
   - text: "We have a [comprehensive list of supported connectors](https://rasa.com/docs/core/connectors/),
     but if you don't see the one you're looking for, you can always create a custom connector by following
     [this guide](https://rasa.com/docs/rasa/user-guide/connectors/custom-connectors/)."
+  utter_faq/rasax:
+  - text: "Rasa X is a toolset that helps you leverage conversations to improve your assistant.
+    Learn more about Rasa X [here](https://rasa.com/docs/rasa-x/) or read the blog post about why we developed it
+    [here](https://blog.rasa.com/algorithms-alone-wont-solve-conversational-ai-introducing-rasa-x/)."
+  utter_faq_rasax_more:
+  - text: "Please read the Rasa X [documentation](https://rasa.com/docs/rasa-x/) for more information."
+  utter_no_further_info:
+  - text: "Sorry, that's all the info I've got on that subject 😕"

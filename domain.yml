@@ -3,7 +3,7 @@ version: "2.0"
 intents:
   - faq:
       use_entities:
-        - product
+      - product
 
 entities:
 - product
@@ -11,9 +11,19 @@ entities:
 slots:
   faq:
     type: any
+  product:
+    type: categorical
+    values:
+    - core
+    - nlu
+    - x
+    - rasa
+    - all
+    - playground
 
 actions:
   - action_set_faq_slot
+  - action_explain_faq
 
 session_config:
   session_expiration_time: 60

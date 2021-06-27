@@ -20,6 +20,33 @@ nlu:
     - what is componenbts
     - what is components
 
+- intent: faq/rasax
+  examples: |
+    - what is [Rasa X](product) ?
+    - how does [Rasa X](product) work?
+    - what is [X](product) ?
+    - can you explain [rasa x](product) to me
+    - could you elaborate more about [rasa x](product)
+    - tell me about [Rasa X](product) please
+    - what is this [rasa x](product) thing. could you tell me more?
+    - what's the purpose of [Rasa X](product)
+    - whats [rasax](product)
+    - is [Rasa X](product) separate from Rasa?
+    - how does [rasa x](product) relate to rasa core
+    - I need to know about [Rasa X](product)
+    - please tell me more about [rasa x](product)
+    - elaborate on [rasa x](product)
+    - Can you tell me about [rasa x](product)?
+    - I want information about [rasa x](product)
+    - [Rasa X](product) features
+    - Tell me about [rasa x](product)
+    - can someone help me with infos about [rasa x](product)
+    - i want to learn more about [Rasa X](product)
+    - tell me what is [rasa x](product)
+    - what is [rasa x](product) ?
+    - what is [rasax](product)
+    - what's [rasa x](product)
+
 - intent: faq/channels
   examples: |
     - Can you tell which messaging channels does rasa support?
@@ -30,3 +57,4 @@ nlu:
     - i want to integrate my rasa bot to webex  may i know how
     - how to setup rasax on slack
     - so... i trying to deploy my rasa bot on
+
