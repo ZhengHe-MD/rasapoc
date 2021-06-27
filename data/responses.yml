@@ -1,7 +1,13 @@
 version: "2.0"
 
 responses:
+  utter_faq:
+  - text: "Hello"
   utter_faq/rasa_components:
   - text: "Rasa Open Source is a machine learning framework for automated text and voice-based conversations.
            Rasa Open Source consists of NLU (Natural Language Understanding) and Dialogue Management.
            Rasa X is a tool that helps you build, improve, and deploy AI Assistants that are powered by the Rasa Open Source framework."
+  utter_faq/channels:
+  - text: "We have a [comprehensive list of supported connectors](https://rasa.com/docs/core/connectors/),
+    but if you don't see the one you're looking for, you can always create a custom connector by following
+    [this guide](https://rasa.com/docs/rasa/user-guide/connectors/custom-connectors/)."

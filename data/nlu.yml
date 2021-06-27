@@ -2,19 +2,30 @@ version: "2.0"
 
 nlu:
 - lookup: products
-  examples:
-  - core
-  - dialogue management
-  - nlu
-  - x
-  - rasa x
-  - both
-  - all
+  examples: |
+    - core
+    - dialogue management
+    - nlu
+    - x
+    - rasa x
+    - both
+    - all
+
 - intent: faq/rasa_components
-  examples:
-  - what are the components of rasa
-  - What components does Rasa have?
-  - What are the two components that make up [Rasa Open Source](product)?
-  - what is a component in rasa?
-  - what is componenbts
-  - what is components
+  examples: |
+    - what are the components of rasa
+    - What components does Rasa have?
+    - What are the two components that make up [Rasa Open Source](product)?
+    - what is a component in rasa?
+    - what is componenbts
+    - what is components
+- intent: faq/channels
+  examples: |
+    - Can you tell which messaging channels does rasa support?
+    - Channels
+    - Can I use the rasa code for my own website?
+    - Can I use your open source code on my website?
+    - how to use rasa in salesforce
+    - i want to integrate my rasa bot to webex  may i know how
+    - how to setup rasax on slack
+    - so... i trying to deploy my rasa bot on

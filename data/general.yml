@@ -1,0 +1,10 @@
+version: "2.0"
+nlu:
+- intent: bye
+  examples: |
+    - Bye
+    - Bye bye
+    - adios
+    - adios?
+    - bye
+    - goodbye
