@@ -8,6 +8,10 @@ intents:
 entities:
 - product
 
+slots:
+  faq:
+    type: any
+
 actions:
   - action_set_faq_slot
 
