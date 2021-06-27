@@ -19,6 +19,7 @@ nlu:
     - what is a component in rasa?
     - what is componenbts
     - what is components
+
 - intent: faq/channels
   examples: |
     - Can you tell which messaging channels does rasa support?
