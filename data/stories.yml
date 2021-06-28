@@ -5,6 +5,15 @@ stories:
   steps:
   - intent: faq
   - action: utter_faq
+- story: faqs
+  steps:
+  - intent: faq
+    entities:
+    - product: x
+  - slot_was_set:
+    - product: x
+  - action: utter_faq
+  - action: action_set_faq_slot
 - story: FAQ - tell more
   steps:
   - intent: faq
