@@ -1,6 +1,12 @@
 version: "2.0"
 
 responses:
+  # out_of_scope
+  utter_out_of_scope/non_english:
+    - text: "I only understand English, I'm sorry."
+  utter_out_of_scope/other:
+    - text: "I can't help you with that, I'm sorry."
+  # faq
   utter_faq/nlu:
     - text: "Natural Language Understanding (NLU) deals with parsing and understanding human language into a structured format.
       Rasa's NLU engine is defined by an [NLU pipeline](https://rasa.com/docs/rasa/tuning-your-model#how-to-choose-a-pipeline) and trained on [NLU training data](https://rasa.com/docs/rasa/nlu-training-data).

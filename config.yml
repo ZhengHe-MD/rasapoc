@@ -18,6 +18,10 @@ pipeline:
      epochs: 100
    - name: EntitySynonymMapper
    - name: ResponseSelector
+     retrieval_intent: out_of_scope
+     scale_loss: false
+     epochs: 100
+   - name: ResponseSelector
      retrieval_intent: faq
      scale_loss: false
      epochs: 100

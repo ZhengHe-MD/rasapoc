@@ -1,9 +1,11 @@
 version: "2.0"
 
 intents:
-  - faq:
-      use_entities:
-      - product
+- explain
+- faq:
+    use_entities:
+    - product
+- out_of_scope
 
 entities:
 - product
