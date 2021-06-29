@@ -87,8 +87,3 @@ responses:
   - text: "Please read the Rasa X [documentation](https://rasa.com/docs/rasa-x/) for more information."
   utter_no_further_info:
   - text: "Sorry, that's all the info I've got on that subject 😕"
-  # fallback
-  utter_ask_rephrase:
-  - text: "Can you rephrase the question?"
-  utter_default:
-  - text: "I'm sorry, I can't help you."
