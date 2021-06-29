@@ -26,6 +26,10 @@ slots:
 actions:
   - action_set_faq_slot
   - action_explain_faq
+  # fallback actions
+  - action_default_ask_affirmation
+  - action_default_fallback
+  - action_restart_with_button
 
 session_config:
   session_expiration_time: 60
