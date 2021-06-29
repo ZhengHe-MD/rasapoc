@@ -1,11 +1,6 @@
 version: "2.0"
 
 stories:
-# faqs
-- story: faqs
-  steps:
-  - intent: faq
-  - action: utter_faq
 # out_of_scope
 - story: out of scope
   steps:
