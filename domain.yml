@@ -23,10 +23,6 @@ slots:
     - all
     - playground
 
-actions:
-  - action_set_faq_slot
-  - action_explain_faq
-
 responses:
   utter_ask_rephrase:
   - text: "Can you rephrase the question?"
